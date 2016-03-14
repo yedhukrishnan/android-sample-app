@@ -21,7 +21,7 @@ build:
   # http://devcenter.wercker.com/docs/steps/index.html
   steps:
     - script:
-      name: echo
+      name: run gradle
       code: |
-        echo "hello world!"
+        ./gradlew --full-stacktrace build
 
