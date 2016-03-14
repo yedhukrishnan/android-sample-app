@@ -21,6 +21,9 @@ build:
   # http://devcenter.wercker.com/docs/steps/index.html
   steps:
     - script:
+      name: copy configuration
+      code: cp app/src/main/java/com/cdapp/android/Configuration.java.example app/src/main/java/com/cdapp/android/Configuration.java
+    - script:
       name: run gradle
       code: |
         ./gradlew --full-stacktrace build
