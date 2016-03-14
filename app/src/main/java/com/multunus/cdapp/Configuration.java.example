@@ -1,0 +1,10 @@
+package com.multunus.cdapp;
+
+/*
+    This file contains configuration for the release stage.
+    To develop locally, copy this and create Configuration.java
+    and update the variables for development environment.
+    Add Configuration.java to .gitignore
+ */
+public class Configuration {
+}
