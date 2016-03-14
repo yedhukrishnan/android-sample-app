@@ -22,7 +22,7 @@ build:
   steps:
     - script:
       name: copy configuration
-      code: cp app/src/main/java/com/multunus/cdapp/android/Configuration.java.example app/src/main/java/com/multunus/cdapp/android/Configuration.java
+      code: cp app/src/main/java/com/multunus/cdapp/Configuration.java.example app/src/main/java/com/multunus/cdapp/Configuration.java
     - script:
       name: run gradle
       code: |
